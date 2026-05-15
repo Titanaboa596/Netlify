@@ -19,7 +19,7 @@
  * Leave as '' to auto-detect from the page origin (local dev mode).
  * @type {string}
  */
-const WS_SERVER_URL = '';
+const WS_SERVER_URL = 'netlify-production-bdc2.up.railway.app';
 
 let wsConnection = null;  // active WebSocket instance
 let myRole       = null;  // 'p1' (host) or 'p2' (joiner), assigned by server
